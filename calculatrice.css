@@ -39,3 +39,14 @@
         width:90%;
         text-align:right;
 }
+.calc_td_btn
+{
+        width:25%;
+        height:100%;
+}
+.calc_btn
+{
+        width:90%;
+        height:90%;
+        font-size:20px;
+}

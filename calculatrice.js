@@ -118,7 +118,7 @@ function key_detect_calc(id,evt)
                 var nbr = evt.keyCode-96;
                 add_calc(id,nbr);
         }
-        else if((evt.keyCode>47) && (evt.keyCode<58)
+        else if((evt.keyCode>47) && (evt.keyCode<58))
         {
                 var nbr = evt.keyCode-48;
                 add_calc(id,nbr);
@@ -157,7 +157,7 @@ function key_detect_calc(id,evt)
         }
         else if(evt.keyCode==46)
         {
-                f_calcid,'ce');
+                f_calc(id,'ce');
         }
         else if(evt.keyCode==8)
         {
